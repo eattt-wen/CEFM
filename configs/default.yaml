@@ -1,0 +1,19 @@
+data:
+  image_dir: "./data/Lesion image"
+  train_csv: "./data/Clinical data/train_set_cleaned.csv"
+  test_csv: "./data/Clinical data/test_set_cleaned.csv"
+
+model:
+  image_model_path: "./data/vit_model/best_model.pth"
+  output_dir: "./run_result"
+
+training:
+  batch_size: 16
+  lr: 1e-3
+  weight_decay: 1e-5
+  epochs_contrastive: 15
+  epochs_classifier: 10
+  seed: 999
+  patience: 5
+  temperature: 0.05
+  projection_dim: 128
