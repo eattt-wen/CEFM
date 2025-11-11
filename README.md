@@ -1,6 +1,6 @@
-# CMEF Melanoma Classification
+# CEFM Melanoma Classification
 
-We introduce CMEF, a contrastive‐learning framework that aligns clinical ABC criteria with Vision Transformer features to generate transparent, text‐based explanations while achieving expert‐level melanoma classification.
+We introduce CEFM, a cCross-modal Explainable Framework that aligns clinical ABC criteria with Vision Transformer features to generate transparent, text‐based explanations while achieving expert‐level melanoma classification.
 
 ---
 
